@@ -254,7 +254,8 @@ $$||\vec{r}\,'(t)|| = \sqrt{4\sin^2(2t) + 4\cos^2(2t) + 16} = \sqrt{4 + 16} = \s
 $$\vec{r}\,''(t) = \langle -4\cos(2t),\; 4\sin(2t),\; 0 \rangle$$
 
 **Step 4:** Compute $\vec{r}\,'(t) \times \vec{r}\,''(t)$:
-$$\vec{r}\,' \times \vec{r}\,'' = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\\\ -2\sin(2t) & -2\cos(2t) & 4 \\\\ -4\cos(2t) & 4\sin(2t) & 0 \end{vmatrix}$$
+
+$$\vec{r}\,' \times \vec{r}\,'' = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ -2\sin(2t) & -2\cos(2t) & 4 \\ -4\cos(2t) & 4\sin(2t) & 0 \end{vmatrix}$$
 
 $$\vec{i}: (-2\cos(2t))(0) - (4)(4\sin(2t)) = -16\sin(2t)$$
 $$\vec{j}: -[(-2\sin(2t))(0) - (4)(-4\cos(2t))] = -16\cos(2t)$$
@@ -292,7 +293,8 @@ $$= \sqrt{4(4 + t^2 + 9t^4)} = 2\sqrt{9t^4 + t^2 + 4}$$
 $$\vec{r}\,''(t) = \langle 0,\; -2,\; 12t \rangle$$
 
 **Step 4:** Compute $\vec{r}\,'(t) \times \vec{r}\,''(t)$:
-$$\vec{r}\,' \times \vec{r}\,'' = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\\\ 4 & -2t & 6t^2 \\\\ 0 & -2 & 12t \end{vmatrix}$$
+
+$$\vec{r}\,' \times \vec{r}\,'' = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ 4 & -2t & 6t^2 \\ 0 & -2 & 12t \end{vmatrix}$$
 
 $$\vec{i}: (-2t)(12t) - (6t^2)(-2) = -24t^2 + 12t^2 = -12t^2$$
 $$\vec{j}: -[(4)(12t) - (6t^2)(0)] = -48t$$
@@ -393,7 +395,8 @@ $$= t + 4t + 2 + 18t^3 - 6t = 18t^3 - t + 2$$
 $$a_T = \frac{18t^3 - t + 2}{\sqrt{9t^4 - t^2 + 4t + 2}}$$
 
 **Step 4:** Compute $\vec{v} \times \vec{a}$ for $a_N$:
-$$\vec{v} \times \vec{a} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\\\ t & 2t+1 & 3t^2-1 \\\\ 1 & 2 & 6t \end{vmatrix}$$
+
+$$\vec{v} \times \vec{a} = \begin{vmatrix} \vec{i} & \vec{j} & \vec{k} \\ t & 2t+1 & 3t^2-1 \\ 1 & 2 & 6t \end{vmatrix}$$
 
 $$\vec{i}: (2t+1)(6t) - (3t^2-1)(2) = 12t^2 + 6t - 6t^2 + 2 = 6t^2 + 6t + 2$$
 $$\vec{j}: -[(t)(6t) - (3t^2-1)(1)] = -(6t^2 - 3t^2 + 1) = -(3t^2 + 1)$$
