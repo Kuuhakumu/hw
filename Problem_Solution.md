@@ -25,8 +25,7 @@
 
 ## Problem 1.1
 
-**Original Problem:**  
-Compute the derivative of the vector function:
+**Original Problem:** Compute the derivative of the vector function:
 $$\vec{r}(t) = (t^3 - 1)\,\vec{i} + e^{2t}\,\vec{j} + \cos(t)\,\vec{k}$$
 
 ### Solution
@@ -49,8 +48,7 @@ $$\vec{r}\,'(t) = 3t^2\,\vec{i} + 2e^{2t}\,\vec{j} - \sin(t)\,\vec{k}$$
 
 ## Problem 1.2
 
-**Original Problem:**  
-Compute the derivative of the vector function:
+**Original Problem:** Compute the derivative of the vector function:
 $$\vec{r}(t) = \left\langle \ln(t^2 + 1),\; t\,e^{-t},\; 4 \right\rangle$$
 
 ### Solution
@@ -88,8 +86,7 @@ $$\vec{r}\,'(t) = \left\langle \frac{2t}{t^2 + 1},\; e^{-t}(1 - t),\; 0 \right\r
 
 ## Problem 2.1
 
-**Original Problem:**  
-Evaluate:
+**Original Problem:** Evaluate:
 $$\int \vec{r}(t)\,dt, \quad \text{where } \vec{r}(t) = t^3\,\vec{i} - \frac{2t}{t^2+1}\,\vec{j} + \cos^2(3t)\,\vec{k}$$
 
 ### Solution
@@ -116,8 +113,7 @@ where $\vec{C}$ is the vector constant of integration.
 
 ## Problem 2.2
 
-**Original Problem:**  
-Evaluate:
+**Original Problem:** Evaluate:
 $$\int_{-1}^{2} \vec{r}(t)\,dt, \quad \text{where } \vec{r}(t) = \langle 6,\; 6t^2 - 4t,\; t\,e^{2t} \rangle$$
 
 ### Solution
@@ -174,8 +170,7 @@ $$\int_{-1}^{2} \vec{r}(t)\,dt = \left\langle 18,\; 12,\; \frac{3}{4}(e^4 + e^{-
 
 ## Problem 3.1
 
-**Original Problem:**  
-Determine the length of the vector function on the given interval:
+**Original Problem:** Determine the length of the vector function on the given interval:
 $$\vec{r}(t) = (3-4t)\,\vec{i} + 6t\,\vec{j} - (9+2t)\,\vec{k}, \quad -6 \le t \le 8$$
 
 ### Solution
@@ -197,8 +192,7 @@ $$L = 28\sqrt{14}$$
 
 ## Problem 3.2
 
-**Original Problem:**  
-Determine the length of the vector function on the given interval:
+**Original Problem:** Determine the length of the vector function on the given interval:
 $$\vec{r}(t) = \left\langle \frac{1}{3}t^3,\; 4t,\; \sqrt{2}\,t^2 \right\rangle, \quad 0 \le t \le 2$$
 
 ### Solution
@@ -243,8 +237,7 @@ $$L = \frac{32}{3}$$
 
 ## Problem 4.1
 
-**Original Problem:**  
-Find the curvature for:
+**Original Problem:** Find the curvature for:
 $$\vec{r}(t) = \langle \cos(2t),\; -\sin(2t),\; 4t \rangle$$
 
 ### Solution
@@ -283,8 +276,7 @@ $$\kappa = \frac{1}{5}$$
 
 ## Problem 4.2
 
-**Original Problem:**  
-Find the curvature for:
+**Original Problem:** Find the curvature for:
 $$\vec{r}(t) = \langle 4t,\; -t^2,\; 2t^3 \rangle$$
 
 ### Solution
@@ -343,8 +335,7 @@ $$\kappa(t) = \frac{\sqrt{36t^4 + 576t^2 + 16}}{4(9t^4 + t^2 + 4)^{3/2}}$$
 
 ## Problem 5.1
 
-**Original Problem:**  
-Determine the tangential and normal components of acceleration for the object whose position is given by:
+**Original Problem:** Determine the tangential and normal components of acceleration for the object whose position is given by:
 $$\vec{r}(t) = \langle \cos(2t),\; -\sin(2t),\; 4t \rangle$$
 
 ### Solution
@@ -377,8 +368,7 @@ $$a_N = \sqrt{||\vec{a}||^2 - a_T^2} = \sqrt{16 - 0} = 4$$
 
 ## Problem 5.2
 
-**Original Problem (Worked Example from Lesson Notes):**  
-An object has acceleration $\vec{a}(t) = \vec{i} + 2\vec{j} + 6t\,\vec{k}$, initial velocity $\vec{v}(0) = \vec{j} - \vec{k}$, and initial position $\vec{r}(0) = \vec{i} - 2\vec{j} + 3\vec{k}$.  
+**Original Problem (Worked Example from Lesson Notes):** An object has acceleration $\vec{a}(t) = \vec{i} + 2\vec{j} + 6t\,\vec{k}$, initial velocity $\vec{v}(0) = \vec{j} - \vec{k}$, and initial position $\vec{r}(0) = \vec{i} - 2\vec{j} + 3\vec{k}$.  
 Determine the tangential and normal components of acceleration.
 
 **Source:** [Velocity and Acceleration Lesson Notes — Example 2](https://tutorial.math.lamar.edu/Classes/CalcIII/Velocity_Acceleration.aspx)
@@ -440,8 +430,7 @@ $$a_N = \frac{\sqrt{(6t^2+6t+2)^2 + (3t^2+1)^2 + 1}}{\sqrt{9t^4 - t^2 + 4t + 2}}
 
 ## Problem 6.1
 
-**Original Problem:**  
-An object's acceleration is given by:
+**Original Problem:** An object's acceleration is given by:
 $$\vec{a}(t) = 3t\,\vec{i} - 4e^{-t}\,\vec{j} + 12t^2\,\vec{k}$$
 The object's initial velocity is $\vec{v}(0) = \vec{j} - 3\vec{k}$ and the object's initial position is $\vec{r}(0) = -5\vec{i} + 2\vec{j} - 3\vec{k}$.
 
@@ -460,7 +449,7 @@ Apply initial condition $\vec{v}(0) = \langle 0, 1, -3 \rangle$:
 $$\left\langle 0,\; 4,\; 0 \right\rangle + \vec{C_1} = \langle 0, 1, -3 \rangle$$
 $$\vec{C_1} = \langle 0, -3, -3 \rangle$$
 
-$$\boxed{\vec{v}(t) = \left\langle \frac{3t^2}{2},\; 4e^{-t} - 3,\; 4t^3 - 3 \right\rangle}$$
+$$\vec{v}(t) = \left\langle \frac{3t^2}{2},\; 4e^{-t} - 3,\; 4t^3 - 3 \right\rangle$$
 
 #### Part B: Find $\vec{r}(t)$
 
@@ -473,7 +462,7 @@ Apply initial condition $\vec{r}(0) = \langle -5, 2, -3 \rangle$:
 $$\left\langle 0,\; -4,\; 0 \right\rangle + \vec{C_2} = \langle -5, 2, -3 \rangle$$
 $$\vec{C_2} = \langle -5, 6, -3 \rangle$$
 
-$$\boxed{\vec{r}(t) = \left\langle \frac{t^3}{2} - 5,\; -4e^{-t} - 3t + 6,\; t^4 - 3t - 3 \right\rangle}$$
+$$\vec{r}(t) = \left\langle \frac{t^3}{2} - 5,\; -4e^{-t} - 3t + 6,\; t^4 - 3t - 3 \right\rangle$$
 
 ### Final Answer:
 $$\vec{v}(t) = \frac{3t^2}{2}\,\vec{i} + (4e^{-t} - 3)\,\vec{j} + (4t^3 - 3)\,\vec{k}$$
@@ -483,8 +472,7 @@ $$\vec{r}(t) = \left(\frac{t^3}{2} - 5\right)\vec{i} + (-4e^{-t} - 3t + 6)\,\vec
 
 ## Problem 6.2
 
-**Original Problem (Worked Example from Lesson Notes):**  
-An object has acceleration $\vec{a}(t) = \vec{i} + 2\vec{j} + 6t\,\vec{k}$, initial velocity $\vec{v}(0) = \vec{j} - \vec{k}$, and initial position $\vec{r}(0) = \vec{i} - 2\vec{j} + 3\vec{k}$.
+**Original Problem (Worked Example from Lesson Notes):** An object has acceleration $\vec{a}(t) = \vec{i} + 2\vec{j} + 6t\,\vec{k}$, initial velocity $\vec{v}(0) = \vec{j} - \vec{k}$, and initial position $\vec{r}(0) = \vec{i} - 2\vec{j} + 3\vec{k}$.
 
 Determine the object's velocity and position functions.
 
@@ -502,7 +490,7 @@ Apply $\vec{v}(0) = \langle 0, 1, -1 \rangle$:
 $$\langle 0, 0, 0 \rangle + \vec{C_1} = \langle 0, 1, -1 \rangle$$
 $$\vec{C_1} = \langle 0, 1, -1 \rangle$$
 
-$$\boxed{\vec{v}(t) = \langle t,\; 2t + 1,\; 3t^2 - 1 \rangle}$$
+$$\vec{v}(t) = \langle t,\; 2t + 1,\; 3t^2 - 1 \rangle$$
 
 #### Part B: Find $\vec{r}(t)$
 
@@ -514,7 +502,7 @@ Apply $\vec{r}(0) = \langle 1, -2, 3 \rangle$:
 $$\langle 0, 0, 0 \rangle + \vec{C_2} = \langle 1, -2, 3 \rangle$$
 $$\vec{C_2} = \langle 1, -2, 3 \rangle$$
 
-$$\boxed{\vec{r}(t) = \langle \frac{t^2}{2} + 1,\; t^2 + t - 2,\; t^3 - t + 3 \rangle}$$
+$$\vec{r}(t) = \langle \frac{t^2}{2} + 1,\; t^2 + t - 2,\; t^3 - t + 3 \rangle$$
 
 ### Final Answer:
 $$\vec{v}(t) = t\,\vec{i} + (2t + 1)\,\vec{j} + (3t^2 - 1)\,\vec{k}$$
